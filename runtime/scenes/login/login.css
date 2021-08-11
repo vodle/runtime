@@ -1,0 +1,146 @@
+/*-- DrLeonardo Design for GravitLauncher --*/
+
+/* Backgrounds */
+#layout {
+    -fx-background-color: transparent;
+    -fx-background-size: cover;
+    -fx-background-image: url('../../images/login.png');
+}
+
+#loginPane,
+#serverPaneLayout {
+    -fx-background-color: transparent;
+}
+
+#password,
+#login {
+    -fx-background-radius: 0;
+}
+
+#goAuth {
+    -fx-background-color: #60a5fa;
+    -fx-text-fill: #fff;
+    -fx-font-weight: bold;
+    -fx-font-size: 11pt;
+    -fx-border-radius: 5px;
+}
+
+
+
+#auth_on:hover,
+#auth_on:pressed {
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 8, 0.0, 0, 0);
+}
+
+#savePassword,
+#autoenter {
+    -fx-font-size: 8pt;
+    -fx-text-fill: #5E5E5E;
+}
+
+#forgotPass {
+    -fx-font-size: 8pt;
+    -fx-text-fill: #A9A9A9;
+}
+
+#forgotPass:hover,
+#forgotPass:pressed {
+    -fx-text-fill: #606060;
+}
+
+#createAccount {
+    -fx-font-size: 12pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #10b981;
+}
+
+#textLogin {
+    -fx-font-size: 12pt;
+    -fx-text-fill: #f3f4f6;
+}
+
+#createAccount:hover,
+#createAccount:pressed {
+    -fx-text-fill: #FFC700;
+}
+
+#newsArea {
+    -fx-font-size: 10pt;
+    -fx-fill: #fff;
+}
+
+#combologin {
+    -fx-text-fill: #606060;
+    -fx-prompt-text-fill: #A9A9A9;
+    -fx-font-weight: bold;
+    -fx-font-size: 11pt;
+    -fx-pref-width: 280px;
+    -fx-pref-height: 45px;
+}
+
+.combologin,
+.combologin {
+    -fx-font-size: 11px;
+    -fx-prompt-text-fill: #A9A9A9;
+    -fx-text-fill: #606060;
+    -fx-background-color: transparent;
+}
+
+.combologin .list-cell {
+    -fx-background: #EDEEEF;
+    -fx-background-color: transparent;
+}
+
+.combologin-popup .list-view {
+    -fx-background-color: #EDEEEF, #EDEEEF;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.3), 3, 0.0, 0, 0);
+}
+
+.combologin .list-cell:filled:selected .text,
+.combologin .list-cell:filled:selected .text {
+    -fx-fill: #A9A9A9;
+}
+
+.combologin .arrow,
+.combologin .arrow {
+    -fx-background-color: #A9A9A9;
+}
+
+.combologin-popup .list-view .list-cell {
+    -fx-background-color: #EDEEEF;
+}
+
+.combologin-popup .list-view .list-cell:filled:selected,
+.combologin-popup .list-view .list-cell:filled:selected:hover {
+    -fx-background: #EDEEEF;
+    -fx-background-color: #EDEEEF;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.combologin-popup .list-view .list-cell:filled:hover {
+    -fx-background-color: #EDEEEF;
+    -fx-text-fill: -fx-text-inner-color;
+}
+
+#iconsLogin {
+    -fx-fill: #fff;
+}
+
+#close{
+    -fx-bacground-color: transparent;
+    -fx-background-image: url('exitButton.png');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+#hide{
+    -fx-bacground-color: transparent;
+    -fx-background-image: url('minimizeButton.png');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+
+/*-- DrLeonardo Design for GravitLauncher --*/
+/*-- Edited by v0dl3 fot HidiaCraft

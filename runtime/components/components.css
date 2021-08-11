@@ -1,0 +1,138 @@
+/*-- DrLeonardo Design for GravitLauncher --*/
+
+#dialogBackground {
+    -fx-background-color: transparent;
+}
+
+#notificationPane {
+    -fx-background-color: #fff;
+}
+
+#serverButtonSelected,
+#serverButtonPressed {
+    -fx-background-color: rgba(243, 243, 243, 0.1);
+}
+
+.serverButtons {
+    -fx-background-color: transparent;
+}
+
+.serverButtonsActive {
+    -fx-background-color: rgba(5, 5, 5, 0.1);
+}
+
+#online {
+    -fx-fill: #FFDE6B;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+#serverLogo {
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-image: url('../images/preloader/logo.png');
+}
+
+#nameServer {
+    -fx-fill: #2C2C2C;
+    -fx-text-fill: #2C2C2C;
+    -fx-font-size: 20px;
+    -fx-wrap-text: false;
+    -fx-font-weight: bold;
+}
+
+#nameServer:hover {
+    -fx-fill: #7C4DFF;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-wrap-text: false;
+}
+
+#genreServer {
+    -fx-fill: #808080;
+    -fx-font-size: 12px;
+}
+
+#headingDialog {
+    -fx-fill: #323232;
+    -fx-font-weight: bold;
+    -fx-font-size: 14pt;
+}
+
+#notificationHeading {
+    -fx-fill: #323232;
+    -fx-font-weight: bold;
+    -fx-font-size: 12pt;
+}
+
+#notificationText {
+    -fx-fill: #5F5F5F;
+    -fx-font-size: 10pt;
+}
+
+#textDialog {
+    -fx-fill: #323232;
+    -fx-font-size: 12px;
+}
+
+.dialogInput {
+    -fx-background-color: #eee;
+}
+
+#dialogPane,
+#dialogApplyPane,
+#dialogTextInput {
+    -fx-background-color: #fff;
+    -fx-border-color: #C7C7C7;
+}
+
+#forgot2fa {
+    -fx-font-size: 8pt;
+    -fx-text-fill: #A9A9A9;
+}
+
+#line {
+    -fx-stroke: #C7C7C7;
+}
+
+
+/*Icons*/
+
+#icoApply {
+    -fx-fill: #fff;
+    -fx-font-size: 23pt;
+}
+
+#icoDeny {
+    -fx-fill: #fff;
+    -fx-font-size: 23pt;
+}
+
+#applyComponents {
+    -fx-background-radius: 0;
+    -fx-fill: #7C4DFF;
+    -fx-background-color: transparent;
+    -fx-font-size: 13pt;
+}
+
+#denyComponents {
+    -fx-background-radius: 0;
+    -fx-fill: #A23131;
+    -fx-background-color: transparent;
+    -fx-font-size: 13pt;
+}
+
+#applyComponents:hover,
+#applyComponents:pressed {
+    -fx-background-color: #6B36FF;
+    -fx-fill: #fff;
+}
+
+#denyComponents:hover,
+#denyComponents:pressed {
+    -fx-background-color: #AB2727;
+    -fx-fill: #fff;
+}
+
+
+/*-- DrLeonardo Design for GravitLauncher --*/
