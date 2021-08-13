@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Module-Main-Class: pro.gravit.launcher.client.JavaRuntimeModule
+Module-Config-Class: pro.gravit.launcher.client.GuiModuleConfig
+Module-Config-Name: JavaRuntime
+

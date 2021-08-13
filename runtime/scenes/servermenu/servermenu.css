@@ -44,7 +44,7 @@
 
 #nickname {
     -fx-font-size: 13pt;
-    -fx-text-fill: #323232;
+    -fx-text-fill: rgba(55, 65, 81, 1);
 }
 
 #heading {
@@ -70,16 +70,19 @@
 }
 
 #clientLaunch {
-    -fx-background-radius: 0;
-    -fx-background-color: #7C4DFF;
+    -fx-background-radius: 5px 0 0 5px;
+    -fx-background-color: rgba(5, 150, 105, 1);
     -fx-background-size: cover;
     -fx-text-fill: #fff;
     -fx-background-insets: 0;
+    -fx-border-color: rgba(0, 0, 0, 0.1);
+    
+    -fx-border-width: 0 1 0 0;
 }
 
 #clientSettings {
-    -fx-background-radius: 0;
-    -fx-background-color: #7C4DFF;
+    -fx-background-radius: 0 5px 5px 0;
+    -fx-background-color: rgba(5, 150, 105, 1);
     -fx-background-size: cover;
     -fx-font-size: 13pt;
     -fx-background-insets: 0;
@@ -89,7 +92,7 @@
 #clientLaunch:hover,
 #clientSettings:hover,
 #clientSettings:pressed {
-    -fx-background-color: #6B36FF;
+    -fx-background-color: rgba(5, 150, 105, 0.9);
 }
 
 /*-- DrLeonardo Design for GravitLauncher --*/
