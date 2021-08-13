@@ -1,9 +1,17 @@
 /*-- DrLeonardo Design for GravitLauncher --*/
 
+
+#apply{
+    -fx-background-color: rgba(5, 150, 105, 1);
+}
+#apply:hover{
+    -fx-background-color: rgba(5, 150, 105, 0.8);
+}
+
 #settingsBackground {
     -fx-background-color: transparent;
     -fx-background-size: cover;
-    -fx-background-image: url('../../images/servermenu.png');
+    -fx-background-image: url('../../images/settings.png');
 }
 
 #settingsPane {
@@ -29,7 +37,7 @@
 }
 
 #dirLabel {
-    -fx-background-color: #eee;
+    -fx-background-color: rgba(0, 0, 0, 0.1);
 }
 
 #ramLabel {
@@ -52,8 +60,13 @@
     -fx-background-color: #323232
 }
 
-#ramInfo,
+#ramInfo{
+    -fx-font-smoothing-type: lcd;
+    -fx-font-size: 16px;
+    -fx-text-fill: #323232;
+}
 #patch {
+    -fx-bacground-color : rgba(0, 0, 0, 0.1);
     -fx-font-smoothing-type: lcd;
     -fx-font-size: 16px;
     -fx-text-fill: #323232;
@@ -65,11 +78,11 @@
 }
 
 #ramSlider>.thumb {
-    -fx-background-color: #7C4DFF;
+    -fx-background-color: rgba(5, 150, 105, 1);
 }
 
 #ramSlider>.colored-track {
-    -fx-background-color: #7C4DFF;
+    -fx-background-color: rgba(5, 150, 105, 1);
     -fx-pref-height: 4px;
 }
 
@@ -88,7 +101,7 @@
 #changeDir,
 #deleteDir {
     -fx-background-radius: 0;
-    -fx-background-color: #eee;
+    -fx-background-color: rgba(0, 0, 0, 0.1);
     -fx-background-size: cover;
     -fx-font-size: 13pt;
 }
@@ -97,7 +110,7 @@
 #changeDir:pressed,
 #deleteDir:hover,
 #deleteDir:pressed {
-    -fx-background-color: #E7E7E7;
+    -fx-background-color: rgba(0, 0, 0, 0.2);
 }
 
 #console {
@@ -124,3 +137,4 @@
 
 
 /*-- DrLeonardo Design for GravitLauncher --*/
+/*-- edited by v0dl3 --*/
