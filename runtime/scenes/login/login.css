@@ -12,20 +12,48 @@
     -fx-background-color: transparent;
 }
 
-#password,
+
 #login {
-    -fx-background-radius: 0;
+    -fx-background-radius: 5px 5px 0 0;
+    -fx-background-color:rgba(122, 122, 122, 0.1);
+    -fx-border-color: rgba(0, 0, 0, 0.1);
+    -fx-border-radius:5px 5px 0 0;
+    -fx-border-width: 1 1 1 1;
 }
+
+#password{
+    -fx-background-radius: 0 0 5px 5px;
+    -fx-background-color:rgba(122, 122, 122, 0.1);
+    -fx-border-color: rgba(0, 0, 0, 0.1);
+    -fx-border-radius:0 0 5px 5px;
+    -fx-border-width: 0 1 1 1;
+}
+
 
 #goAuth {
-    -fx-background-color: #60a5fa;
+    -fx-background-color: #059669;
     -fx-text-fill: #fff;
     -fx-font-weight: bold;
-    -fx-font-size: 11pt;
+    -fx-font-size: 10pt;
     -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
 }
-
-
+#password:hover,
+#password:pressed{
+    -fx-background-radius: 0 0 5px 5px;
+    -fx-background-color:rgba(255, 255, 255, 0.5);
+    -fx-border-color: rgba(16, 185, 129, 1);
+    -fx-border-radius:0 0 5px 5px;
+    -fx-border-width: 1 1 1 1;
+}
+#login:hover,
+#login:pressed {
+    -fx-background-radius: 5px 5px 0 0;
+    -fx-background-color:rgba(255, 255, 255, 0.5);
+    -fx-border-color: rgba(16, 185, 129, 1);
+    -fx-border-radius:5px 5px 0 0;
+    -fx-border-width: 1 1 1 1;
+}
 
 #auth_on:hover,
 #auth_on:pressed {
@@ -40,12 +68,12 @@
 
 #forgotPass {
     -fx-font-size: 8pt;
-    -fx-text-fill: #A9A9A9;
+    -fx-text-fill: rgba(16, 185, 129, 1);;
 }
 
 #forgotPass:hover,
 #forgotPass:pressed {
-    -fx-text-fill: #606060;
+    -fx-text-fill: rgba(5, 150, 105, 1);
 }
 
 #createAccount {
@@ -78,50 +106,6 @@
     -fx-pref-height: 45px;
 }
 
-.combologin,
-.combologin {
-    -fx-font-size: 11px;
-    -fx-prompt-text-fill: #A9A9A9;
-    -fx-text-fill: #606060;
-    -fx-background-color: transparent;
-}
-
-.combologin .list-cell {
-    -fx-background: #EDEEEF;
-    -fx-background-color: transparent;
-}
-
-.combologin-popup .list-view {
-    -fx-background-color: #EDEEEF, #EDEEEF;
-    -fx-background-insets: 0, 1;
-    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.3), 3, 0.0, 0, 0);
-}
-
-.combologin .list-cell:filled:selected .text,
-.combologin .list-cell:filled:selected .text {
-    -fx-fill: #A9A9A9;
-}
-
-.combologin .arrow,
-.combologin .arrow {
-    -fx-background-color: #A9A9A9;
-}
-
-.combologin-popup .list-view .list-cell {
-    -fx-background-color: #EDEEEF;
-}
-
-.combologin-popup .list-view .list-cell:filled:selected,
-.combologin-popup .list-view .list-cell:filled:selected:hover {
-    -fx-background: #EDEEEF;
-    -fx-background-color: #EDEEEF;
-    -fx-text-fill: -fx-selection-bar-text;
-}
-
-.combologin-popup .list-view .list-cell:filled:hover {
-    -fx-background-color: #EDEEEF;
-    -fx-text-fill: -fx-text-inner-color;
-}
 
 #iconsLogin {
     -fx-fill: #fff;
@@ -143,4 +127,4 @@
 
 
 /*-- DrLeonardo Design for GravitLauncher --*/
-/*-- Edited by v0dl3 fot HidiaCraft
+/*-- Edited by v0dl3 fot HidiaCraft --*/

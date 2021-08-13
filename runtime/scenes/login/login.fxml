@@ -29,38 +29,38 @@
                     <Font size="16.0" />
                 </font>
             </TextField>
-            <PasswordField id="password" layoutX="79.0" layoutY="289.0" prefHeight="45.0" prefWidth="218.0" promptText="%runtime.scenes.login.login.password">
+            <PasswordField id="password" layoutX="80.0" layoutY="278.0" prefHeight="45.0" prefWidth="280.0" promptText="%runtime.scenes.login.login.password">
                 <font>
                     <Font size="16.0" />
                 </font>
             </PasswordField>
-            <Button id="goAuth" defaultButton="true" layoutX="77.0" layoutY="387.0" prefHeight="35.0" prefWidth="268.0" styleClass="InputError" text="%runtime.scenes.login.login.goAuth" textAlignment="CENTER" textFill="WHITE">
+            <Button id="goAuth" defaultButton="true" layoutX="80.0" layoutY="387.0" prefHeight="35.0" prefWidth="280.0" styleClass="InputError" text="%runtime.scenes.login.login.goAuth" textAlignment="CENTER" textFill="WHITE">
                 <font>
                     <Font name="System Bold" size="32.0" />
                 </font>
             </Button>
-            <Hyperlink id="forgotPass" alignment="CENTER_RIGHT" focusTraversable="false" layoutX="79.0" layoutY="437.0" prefHeight="22.0" prefWidth="268.0" text="%runtime.scenes.login.login.forgotPass" textAlignment="CENTER">
+            <Hyperlink id="forgotPass" alignment="CENTER" focusTraversable="false" layoutX="79.0" layoutY="437.0" prefHeight="22.0" prefWidth="268.0" text="%runtime.scenes.login.login.forgotPass" textAlignment="CENTER">
                 <font>
                     <Font size="11.0" />
                 </font>
             </Hyperlink>
-            <CheckBox id="savePassword" layoutX="77.0" layoutY="334.0" prefHeight="20.0" prefWidth="205.0" text="%runtime.scenes.login.login.savePassword" textFill="#dadada">
+            <CheckBox id="savePassword" layoutX="80.0" layoutY="334.0" prefHeight="20.0" prefWidth="280.0" text="%runtime.scenes.login.login.savePassword" textFill="#dadada">
                 <padding>
                     <Insets left="5.0" />
                 </padding>
             </CheckBox>
-            <CheckBox id="autoenter" layoutX="77.0" layoutY="357.0" prefHeight="20.0" prefWidth="205.0" text="%runtime.scenes.login.login.autoenter" textFill="#dadada">
+            <CheckBox id="autoenter" layoutX="80.0" layoutY="357.0" prefHeight="20.0" prefWidth="280.0" text="%runtime.scenes.login.login.autoenter" textFill="#dadada">
                 <padding>
                     <Insets left="5.0" />
                 </padding>
             </CheckBox>
-            <Text id="textLogin" fill="WHITE" layoutX="464.0" layoutY="25.0" text="%runtime.scenes.login.login.textLogin" wrappingWidth="295.9999973028898" />
-            <Hyperlink id="createAccount" focusTraversable="false" layoutX="464.0" layoutY="29.0" prefHeight="28.0" prefWidth="296.0" text="%runtime.scenes.login.login.createAccount">
+            <Text id="textLogin" fill="WHITE" layoutX="469.0" layoutY="48.0" text="%runtime.scenes.login.login.textLogin" wrappingWidth="345.0" />
+            <Hyperlink id="createAccount" alignment="TOP_LEFT" focusTraversable="false" layoutX="464.0" layoutY="52.0" prefHeight="33.0" prefWidth="345.0" text="%runtime.scenes.login.login.createAccount">
                 <font>
                     <Font size="11.0" />
                 </font>
             </Hyperlink>
-            <ScrollPane id="scroll-pane" layoutX="470.0" layoutY="71.0" prefHeight="431.0" prefWidth="431.0">
+            <ScrollPane id="scroll-pane" layoutX="470.0" layoutY="90.0" prefHeight="431.0" prefWidth="431.0">
                 <opaqueInsets>
                     <Insets />
                 </opaqueInsets>
